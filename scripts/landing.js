@@ -30,3 +30,10 @@ revealThirdPoint();
 };
 
 animatePoints(); 
+
+function revealPoint(a){
+    var a = document.getElementsByClassName("point");
+    for(var i=0; i < point.length; i++) {
+  point[i].style.opacity = 1;
+}
+}
